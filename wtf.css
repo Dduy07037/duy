@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.iconfb{
+    padding: 24.51%;
+    width: 200px;
+    position: absolute;
+}
+body{
+    background-color: #212121;
+}
+.ong{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+.gr1{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+.gr2{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    margin-top: 0.5em;
+}
+.card1{
+    border: none;
+    padding: 50px 50px 45px 50px;
+    border-radius: 95% 5px 5px 5px;
+    box-shadow: 0 0 25px rgb(175, 53, 175);
+    transition: 0.2s ease-in-out;  
+}
+.card2{
+    border: none;
+    padding: 50px 56px 45px 50px;
+    border-radius: 5px 95% 5px 5px;
+    box-shadow: 0 0 25px rgb(87, 103, 206);
+    transition: 0.2s ease-in-out; 
+}
+.card3{
+    border: none;
+    padding: 50px 45.5px 45px 50px;
+    border-radius: 5px 5px 5px 95%;
+    box-shadow: 0 0 25px rgb(201, 219, 99);
+    transition: 0.2s ease-in-out;
+}
+.card4{
+    border: none;
+    padding: 50px 48.5px 45px 50px;
+    border-radius: 5px 5px 95% 5px;
+    box-shadow: 0 0 25px rgb(206, 108, 108);
+    transition: 0.2s ease-in-out;
+}
+i{
+    font-size: 35px;
+    color: #212121;
+}
+.card1 i{
+    padding-left: 5px;
+    padding-top: 5px;
+    color: rgb(175, 53, 175);
+}
+.card2 i{
+    padding-right: 5px;
+    padding-top: 5px;
+    color: rgb(65, 80, 181);
+}
+.card3 i{
+    padding-left: 5px;
+    padding-bottom: 5px;
+    color: rgb(174, 193, 67);
+}
+.card4 i{
+    padding-right: 5px;
+    padding-bottom: 5px;
+    color: rgb(146, 61, 61);
+}
+.card1:hover{
+    background-color:rgb(175, 53, 175) ;
+    scale: 1.1;
+    box-shadow: 0 0 5px rgb(204, 68, 204),
+                0 0 25px rgb(204, 68, 204),
+                0 0 70px rgb(204, 68, 204);
+}
+.card1:hover i{
+    color: white;
+}
+.card2:hover{
+    background-color: rgb(65, 80, 181);
+    scale: 1.1;
+    box-shadow: 0 0 5px rgb(87, 103, 206),
+                0 0 25px rgb(87, 103, 206),
+                0 0 70px rgb(87, 103, 206);
+}
+.card2:hover i{
+    color: white;
+}
+.card3:hover{
+    background-color: rgb(174, 193, 67);
+    scale: 1.1;
+    box-shadow: 0 0 5px rgb(201, 219, 99),
+                0 0 25px rgb(201, 219, 99),
+                0 0 70px rgb(201, 219, 99);
+}
+.card3:hover i{
+    color: white;
+}
+.card4:hover{
+    background-color: rgb(146, 61, 61);
+    scale: 1.09;
+    box-shadow: 0 0 5px rgb(206, 108, 108),
+                0 0 25px rgb(206, 108, 108),
+                0 0 70px rgb(206, 108, 108);
+}
+.card4:hover i{
+    color: white;
+}
